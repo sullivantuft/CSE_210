@@ -46,8 +46,6 @@ public string GetFractionString()
 }
 public double GetDecimalValue()
 {
-    
-
     return (double)_top / (double)_bottom;
 }
 }
