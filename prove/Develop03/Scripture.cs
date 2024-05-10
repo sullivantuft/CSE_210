@@ -21,7 +21,7 @@ public class Scripture
             {
                 
                 Word word = new Word(currentWord);
-                //Console.WriteLine(word.GetDisplayText());
+                
                 _words.Add(word);
                 currentWord="";
             }
@@ -70,8 +70,9 @@ public class Scripture
             
         }
         
-       return _reference.GetDisplayText() + text; 
+        return _reference.GetDisplayText() + text; 
     }
+
     public bool IsCompletelyHidden()
     {
         

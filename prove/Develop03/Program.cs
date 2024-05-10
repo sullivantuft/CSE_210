@@ -50,25 +50,7 @@ class Program
         }
         
         
-        
-       /* while(true)
-        {
-            Console.WriteLine(scripture.GetDisplayText());
-
-
-            Console.WriteLine("Press Enter to continue or type 'quit' to finish.");
-            while (Console.ReadKey(true).Key != ConsoleKey.Enter) {
-                scripture.HideRandomWords(2);
-                Console.WriteLine(scripture.GetDisplayText());
-             }
-
-        }
-        */
-
-      //  Console.WriteLine(scripture.GetDisplayText());
-      //  scripture.HideRandomWords(2);
-       // Console.WriteLine(scripture.GetDisplayText());
-        
+    
 
     }
 }
