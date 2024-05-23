@@ -52,7 +52,7 @@ public override string ToString()
 {
     return $"{_shortName} ({_description}) -- Completed {_amountCompleted} / {_target}";
 }
-    public override string GetStringRepresentation()
+public override string GetStringRepresentation()
 {
     return $"ChecklistGoal|{_shortName}|{_description}|{_points}|{_target}|{_bonus}|{_amountCompleted}";
 }
