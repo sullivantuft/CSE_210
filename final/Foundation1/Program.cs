@@ -49,7 +49,7 @@ class Program
     {
         Console.Write("Video: ");
         video.DisplayInfo();
-        Console.WriteLine("Comments: ");
+        Console.WriteLine("Comments: " + video.GetNumberOfComments());
         video.DisplayComments();
         Console.WriteLine(" ");
     }
