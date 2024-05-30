@@ -29,9 +29,6 @@ class Program
         Address address2 = new Address("101 Main St", "Berlin", "Deutschland", "Germany");
         Customer customer2 = new Customer("Master Chief", address2);
 
-        
-
-    
         _products.Add(product2);
         _products.Add(product3);
         _products.Add(product4);
