@@ -13,7 +13,7 @@ public override void FullDetails()
     Console.WriteLine($"Type: {_eventType}");
     Console.WriteLine($"{_title} - {_description}");
     Console.WriteLine($"{_date}");
-    _address.GetStringRepresentation();
+    Console.WriteLine(_address.GetStringRepresentation());
     Console.WriteLine($"Speaker: {_speaker}");
     Console.WriteLine($"Capacity: {_capacity}");
 }
