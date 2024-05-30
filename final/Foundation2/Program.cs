@@ -12,7 +12,7 @@ class Program
         Product product1 = new Product("PS5", 1, 499.99, 1);
         Product product2 = new Product("ASUS Laptop", 2, 899.99, 1);
         Product product3 = new Product("Pencil", 3, 1, 15);
-        Product product4 = new Product("Markers", 3, 2, 10);
+        Product product4 = new Product("Markers", 4, 2, 10);
 
         _products.Add(product1);
         _products.Add(product3);
